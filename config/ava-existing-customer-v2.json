@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ava-existingcustomer-yytyme",
+  "private_key_id": "d50d09de2c49cc84fb2ff65630e83ef646890259",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCo8wPkvtgMRzxA\ndK1Wg3MGoTFIvZuiOEmCTmVziXZeYh21BGKUqaXHSFjezv7c3O/hhr6ABu9icsl9\n/HIzgw53OZ0HkODHEwZzRzSHq5z3tGvS80AD/Lk1MMbmQINajTrdcY2QzXNiQGK0\nrlYrVnwIzkZjHiLGX5rSOOt8lqaIOBxqQPIwedf7nIQU/FgauyDcfi45jJ6om4Un\nm2/rF1DKRBGdt98TTkA/WYOwTEWMka4RQUmMOh3vlCqTf+rlPXjt/7F6aJjjFv6Z\n8FSPHT6ttPfd4LnwDxXfxFd2/QXhN9pik2If4/2C5rj62Qu5oy1u2gxKw1iKPwKq\nHbR3IauTAgMBAAECggEAIcWmPxkJHfc1a5sHNVaEbUxWijhgvn4q75HVRNGzKC3L\ny24LeLUqztm+7hcJqkO97eKd/QCl5JOWhIksmPB3OUz6f1MuI41BilSvAvnCoF9f\n+GSopMNlkGTmNYuq1jSKEk8LIel3yameMYjx76rTk30MY+7Xu7jLvX8kT5zbwDnH\nygKXiibaXyjIMwBO8dxp+M8uUFyn0Wu6AZ6Bra+nuEVXeW0uFjWUg3N0XN0X2lc2\nsGL5No7cvYbgkeGquZWPddIYaG69oek9JPsnF5wkXxHXBmPf68U02Qdv5sP6bvmq\ntLxBV1/jt4nFUywV3n9IsynvJo+oRHOWYJKQ7wtW2QKBgQDg5WQPTV+D6ztFPwLZ\neUcDtCv01hrrb2EPRjayzdNEclm5q/4/fkXvHlo0DtAkaSOoGv/KaZz1zk6Os03X\nUAMDcIyReSeOo5yPFHKTICjImLexuIWTWbMS3oDwHSoLmA7D+w6gxx0fNClR7pve\nQYeCNjtfU/gZgrJx/GPHBEYAKwKBgQDAUMmqn4WFeUi0VO8SCWVsEggLEKsFUxcf\nHs+2H+M5JKXTwJXr2BDBHn8kykmwdIPNKdJumkrw4RifgWB8H6clfZNdFJtUPOa9\n6qaB5lPpKn2H9NFM/ij1O8ijIiJKq2lxa2r1lnbJXtySz8A16MymZT/Ye4MS8Txf\nCm5Xhq/mOQKBgGhQPg8S9mC79SvzRCEXLac8JL9Vp/rYGI77JFffPEUdPRzv9+f/\na/SzgWdwD38z/UP18fsy7Yjd/nYWGN7rz9oClFDNf1mb7fw3ocU4P3J704htbBei\nnXr9FZVKEbx69S5V/rz4Xjug+CF2qXl3r6DoArX+vq8mfhp81NL02nstAoGAXpJb\n2ZAAtRZjbmql9hSwz2g+lFJqB4BIyoD4W/NqZdtjwLHgB86EzrMUix7/BcsGVYnP\ndZxiZfoLhcS1kdRu+by7DvbnO5GHVrVhlFeTxAGlIYp+soH52j6/95j9jAKnI6NT\nQdnwKC6CAaAwQVJt8RWxQ9/ZISOIMKSMhnYxYeECgYEAvnf5AWRz2fMlPO9T2BFU\nbWcsJWJOAjPWSVBkngj/TQgiQWFaLv+A+y8GIS3RphZYx4JJY00OG1ogRFJ7wl4+\njVdQSrvfjO4TKWzuInvgSOsV6djWEIqt7z1x1FZGaC23xGEu1Z26GCaqE5BOZn3o\nR+YXFGfYGCXwMddayOZwbyE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-euyrco@ava-existingcustomer-yytyme.iam.gserviceaccount.com",
+  "client_id": "110817635699708051828",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-euyrco%40ava-existingcustomer-yytyme.iam.gserviceaccount.com"
+}
