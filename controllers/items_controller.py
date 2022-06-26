@@ -1,5 +1,5 @@
-from Repositories.model.items import Item
-from Repositories.model.item_model import ItemModel
+from model.items import Item
+from entities.item_model import ItemModel
 
 from fastapi import Body, Depends
 
@@ -33,14 +33,25 @@ class ItemController:
     def get_single_item(self, id:int, session: Session = Depends(get_session)):
         print("Get single item api  hit")
 
-        item = session.query(ItemModel).get(id)
+        allitemLen = session.query(ItemModel).all()
+        if 0 < id <= len(allitemLen):
 
-        body = {
-            "responsecode": 200,
-            "data": item
+            item = session.query(ItemModel).get(id)
 
-        }
-        return body
+            body = {
+                "responsecode": 200,
+                "data": item
+
+            }
+            return body
+        else:
+            body = {
+                "responsecode": 402,
+                "data": "This is not a valid id."
+
+            }
+            return body
+
 
     def add_item(self, item: Item, session: Session = Depends(get_session)):
         print("add item api hit")
@@ -57,18 +68,25 @@ class ItemController:
 
     def update_item(self, id:int,item: Item, session: Session = Depends(get_session)):
         print("update item api hit")
+        allitemLen = session.query(ItemModel).all()
+        if 0 < id <= len(allitemLen):
+            itemObj = session.query(ItemModel).get(id)
+            itemObj.task = item.task
 
-        itemObj = session.query(ItemModel).get(id)
-        itemObj.task = item.task
+            session.commit()
 
-        session.commit()
+            body= {
+                "responsecode": 200,
+                "data": item
+            }
+            return body
+        else:
+            body = {
+                "responsecode": 402,
+                "data": "This is not a valid id."
 
-        body= {
-            "responsecode": 200,
-            "data": item
-        }
-        return body
-
+            }
+            return body
 
     def delete_item(self,id:int, item: Item, session: Session = Depends(get_session)):
         print("delete item api hit")
